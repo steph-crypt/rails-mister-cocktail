@@ -1,0 +1,51 @@
+.container-show {
+  background-image: url(http://i.ebayimg.com/images/i/400750463245-0-1/s-l1000.jpg);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-cocktail-show {
+  background-color: white;
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+  width: 575px;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  margin: 30px;
+  border: 4px solid black;
+}
+
+.card-cocktail-show h1 {
+  color: black;
+  font-size: 4.5rem;
+  font-family: 'Righteous', cursive;
+}
+
+.card-cocktail-show p {
+  font-family: 'Righteous', cursive;
+
+}
+.ingredients p {
+  color: #e74f2e;
+  font-size: 30px;
+}
+
+.ingredients li {
+  color: black;
+  font-size: 25px;
+}
+
+
+.links p {
+  padding-top: 10px;
+  font-size: 20px;
+  font-family: 'Righteous', cursive;
+}

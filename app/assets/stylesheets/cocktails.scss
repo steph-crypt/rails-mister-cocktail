@@ -1,3 +1,16 @@
 // Place all the styles related to the cocktails controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+$pink: #ff429a;
+$blushing: #871449;
+$soft-pink: #d695b3;
+$spacer: 8px;
+
+body {
+  background: $soft-pink
+}
+
+.container {
+  background-image: cover
+
+}

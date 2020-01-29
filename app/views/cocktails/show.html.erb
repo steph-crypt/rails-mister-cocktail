@@ -4,8 +4,9 @@
       <% @cocktail.doses.each do |d| %>
         <div class="ingredients">
             <p>Ingredients</p>
-            <li> <%= d.ingredient.name %> <%= link_to "🗑", dose_path(d), method: :delete %></li>
-            <li><%= d.description %> <%= link_to "🗑", dose_path(d), method: :delete %></li>
+            <li><%= d.ingredient.name %></li>
+            <li><%= d.description %></li>
+            <p><%= link_to "🗑", dose_path(d), method: :delete %></p>
       <% end %>
         </div>
       <div class="links">

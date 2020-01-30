@@ -44,10 +44,10 @@
   border-radius: 26px;
   border: 2px solid black;
   font-family: 'M PLUS 1p', sans-serif;
-
-  .btn-form:hover, .btn-form:focus, .btn-formk:active, .btn-form.active {
-    border-color: red;
 }
+
+  .btn-form input:hover, .btn-form input:focus, .btn-form input:active, .btn-form input.active {
+    border-color: #ed462f;
 }
 
 .form-container-dose {
@@ -56,7 +56,6 @@
   background-size: cover;
   height: 100vh;
   display: flex;
-  // margin-bottom: 65px;
   justify-content: center;
   flex-direction: column;
   align-items: center;

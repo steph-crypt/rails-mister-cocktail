@@ -1,3 +1,5 @@
+<%= render 'layouts/shared/navbar' %>
+
 <div class="form-container-dose">
   <h1>Add a new dose for <%= @cocktail.name %></h1>
         <%= simple_form_for [@cocktail, @dose] do |f| %>

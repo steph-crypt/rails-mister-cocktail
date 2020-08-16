@@ -1,5 +1,5 @@
 .container-show {
-  background-image: url(http://i.ebayimg.com/images/i/400750463245-0-1/s-l1000.jpg);
+  background-image: url('/1398640.jpg');
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -21,6 +21,7 @@
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   margin: 30px;
   border: 4px solid black;
+  margin-top: 50px;
 }
 
 .card-cocktail-show h1 {
@@ -43,7 +44,6 @@
   color: black;
   font-size: 25px;
 }
-
 
 .links p {
   padding-top: 10px;
